@@ -1,4 +1,4 @@
-FROM node:alpine as base
+FROM node:alpine
 
 ENV NODE_ENV=production
 RUN corepack enable
