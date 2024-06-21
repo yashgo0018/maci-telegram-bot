@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Specify ECMAScript target version
+    "module": "commonjs", // Specify module code generation
+    "rootDir": "src", // Root directory of input files
+    "outDir": "dist", // Directory to output compiled files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable compatibility with ES module exports
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure file names are case-sensitive
+    "sourceMap": false, // Generate source map files
+    "declaration": false, // Generate corresponding '.d.ts' files
+    "resolveJsonModule": true, // Include modules imported with '.json' extension
+    "noImplicitAny": false, // Allow expressions and declarations to implicitly have 'any' type
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "experimentalDecorators": true, // Enable experimental support for decorators
+    "emitDecoratorMetadata": true // Emit design-type metadata for decorators
+  },
+  "include": [
+    "src/**/*" // Include all files in the 'src' directory
+  ],
+  "exclude": [
+    "node_modules", // Exclude the 'node_modules' directory
+    "dist" // Exclude the 'dist' directory
+  ]
+}
